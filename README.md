@@ -4,10 +4,10 @@
 
 ## Problem Statement
 
-- There are 80 seats in a coach of a train with only 7 seats in a row and last row of only 3 seats. For simplicity, there is only one coach in this train.
-- One person can reserve up to 7 seats at a time.
-- If person is reserving seats, the priority will be to book them in one row.
-- If seats are not available in one row then the booking should be done in such a way that the nearby seats are booked.
+- The train coach consists of 80 seats, arranged with 7 seats in each row, except for the last row, which contains 3 seats. For simplicity, the coach is treated as a single entity.
+- A user can reserve up to 7 seats in a single booking.
+- When a user reserves seats, the system prioritizes booking seats within the same row.
+- If sufficient seats are not available in one row, the system will book nearby seats.
 
 ## Solution
 
@@ -19,7 +19,7 @@
 
 ## How to run application
 
-- Download the project zip from the github [https://github.com/KunalPandharkar/Unstop-Challenge]
+- Download the project zip from the github [https://github.com/Alpeshgarg/Unstop-Challenge]
 - Install all project dependencies by running command
 
 ```bash
@@ -61,16 +61,3 @@
 `resources/views/ticket-info.blade.php`
 
 `routes/web.php`
-
-
-
-
-## 🚀 About Me
-Full stack web developer having an experience of developing and deploying successful projects as per 
-client requirements and specifications, looking for a challenging role in reputable organization to utilize 
-my skills
-
-
-## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kunal-pandharkar-513994188)
-
